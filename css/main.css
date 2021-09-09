@@ -1,0 +1,20 @@
+:root {
+	--title-font: 'Playfair Display', serif;
+}
+footer {
+	height: 840px;
+	background: url('../img/footer_bot_shadow.png'), url('../img/footer_img.png');
+}
+.container {
+	width: 1110px;
+	height: 100%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.footer__form h2 {
+	font: normal 48px/64px var(--title-font);
+	height: 128px;
+	width: 490px;
+	padding: 177px 0px;
+	margin-left: 16px;
+}
