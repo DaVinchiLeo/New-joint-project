@@ -1,13 +1,29 @@
 .fon_for_verst {
-  background: url() no-repeat center center;
+  background: url(/img/peakpx.png) no-repeat center center;
+  background-blend-mode: overlay;
+  
+  opacity: 0.7;
   width: 1440px;
   height: 905px;
   border: solid 1px red;
   position: relative;
+  
 }
-.menu {
-  position: absolute;
+.menu_li{
+ display: inline;
+ margin-left: 40px;
 }
+.li_with_logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  height: 65px;
+  width: 170px;
+  margin: 0 320px 0 0;
+}
+.marg{ margin: 30px 150px 180px 150px;}
 
 .fonts_menu {
   font-family: "Raleway"; /*???*/
@@ -17,7 +33,9 @@
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-  
+  display: flex;
+  justify-content: flex-end;
+  border: solid 1px rgb(9, 255, 103);
 }
 .fonts_logo {
   font-family: "Playfair Display SC";
@@ -27,20 +45,35 @@
   line-height: 139px;
   letter-spacing: 0em;
   text-align: left;
+  margin: 0px;
 }
-.fonts_little_logo{
-font-family: Arial;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
-text-transform: uppercase
+.fonts_little_logo {
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0 0 250px 0;
 }
-
-.div_choice{
-    border: solid 2px red;
-    display: flex;
-    justify-content: center;
+.for_flexposition {
+  display: flex;
+  justify-content: center;
+}
+.div_choice {
+  width: 1045px;
+  height: 88px;
+  margin: 0 auto;
+  border: 1px solid rgb(255, 232, 232);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(202, 202, 202);
+  opacity: 0.7;
+}
+.select_header {
+  width: 250px;
+  height: 70px;
+  margin: 10px auto;
 }
