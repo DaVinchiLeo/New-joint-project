@@ -17,14 +17,14 @@
         <div class="fon_for_verst">
             <div class="fonts_menu marg">
                 <ul class="li_with_logo">
-                    <li class="menu_li"><img  class="logo" src="img/logo.PNG" alt="логотип"> </li>
+                    <li class="menu_li"> <a href="https://pikabu.ru/"><img class="logo" src="img/logo.PNG" alt="логотип"></a> </li>
                     <!--<li class="menu_li">WHITE CLOUD</li>-->
-                    <li class="menu_li">PLACES</li>
-                    <li class="menu_li">TOURS</li>
-                    <li class="menu_li">ACTIVITIES</li>
-                    <li class="menu_li">BOOKNG</li>
-                    <li class="menu_li">BLOG</li>
-                    <li class="menu_li">ABOUT</li>
+                    <li class="menu_li"> <a class="links_header" href="https://pikabu.ru/">PLACES</a></li>
+                    <li class="menu_li"><a class="links_header" href="https://pikabu.ru/">TOURS</a></li>
+                    <li class="menu_li"><a class="links_header" href="https://pikabu.ru/">ACTIVITIES</a></li>
+                    <li class="menu_li"><a class="links_header" href="https://pikabu.ru/">BOOKNG</a></li>
+                    <li class="menu_li"><a class="links_header" href="https://pikabu.ru/">BLOG</a></li>
+                    <li class="menu_li"><a class="links_header" href="https://pikabu.ru/">ABOUT</a></li>
                 </ul>
             </div>
             <div>
@@ -32,19 +32,28 @@
                 <p class="fonts_little_logo for_flexposition">Start your journey now </p>
             </div>
             <div class="div_choice for_flexposition">
-                <select class="select_header" name="1">
-                    <option value="yes">&#9998;Да</option>
+                <div class="div_form_select">
+                    <label class="label_ppsition label_tuor"></label>
+                    <select class="select_header input_fonts" name="1">
+                        <option value="yes">select_tour</option>
+                        <option value="no">Нет</option>
+                    </select>
+                </div>
+                <div class="div_form_select">
+                    <label class="label_ppsition label_date"></label>
+                    <select class="select_header input_fonts" name="2">
+                        <option value="yes">seleck date</option>
+                        <option value="no">Нет</option>
+                    </select>
+                </div>
+                <div class="div_form_select">
+                    <label class="label_ppsition label_guests"></label>
+                <select class="select_header input_fonts" name="3">
+                    <option value="yes">number of guests</option>
                     <option value="no">Нет</option>
                 </select>
-                <select class="select_header" name="2">
-                    <option value="yes">&#9998;Да</option>
-                    <option value="no">Нет</option>
-                </select>
-                <select class="select_header" name="3">
-                    <option value="yes">&#9998;Да</option>
-                    <option value="no">Нет</option>
-                </select>
-                <input class="select_header" type="button" value="Регистрация">
+                </div>
+                <input class="select_butt_header input_fonts_butt" type="button" value="Search tour">
             </div>
         </div>
 
